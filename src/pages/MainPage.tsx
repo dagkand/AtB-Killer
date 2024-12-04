@@ -4,7 +4,7 @@ import TrondheimMap from "../components/TrondheimMap";
 
 const MainPage: React.FC = () => {
   return (
-    <div>
+    <div className="bg-slate-200">
       <h1>Welcome to Trondheim</h1>
       <TrondheimMap />
     </div>
